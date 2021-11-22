@@ -1,0 +1,1 @@
+# CS-571-PROJECT-Generate-the-images-and-Determine-the-components-using-PCA-NMF-
