@@ -156,4 +156,39 @@ plt.tight_layout()
 axes = ax.flatten()
 for i in range(25):
     axes[i].imshow(S[i],cmap="Greys")
+    
+#Adding rotation
+
+#angle = 90
+
+# for i in range(0,199): # N_Z[i] = rotate (N_Z[i], angle)
+
+# angle = 180
+
+# for i in range (200, 399):
+
+# N_Z[i]= rotate (N_Z[i], angle)
+
+# angle = 270
+
+# for i in range (400,599): # N_Z[i]= rotate (N_Z[i], angle)
+
+# angle = 360
+
+# for i in range (600,799): # N_Z[i] = rotate (N_Z[i], angle)
+
+# angle = 270
+
+# for i in range (800,999): # N_Z[i] = rotate (N_Z[i], angle)
+
+
+#### for covariance matrix
+"""newarray_A_meaned = newarray_A -np.mean(newarray_A)
+cov_mat_A = np.cov(newarray_A_meaned)
+eigen_values, eigen_vectors = np. linalg.eigh(cov_mat_A)
+sorted_index = np.argsort(eigen_values)[::-1] 
+sorted_eigenvalue = eigen_values[sorted_index] 
+sorted_eigenvectors = eigen_vectors[:,sorted_index]
+n_components = 16
+eigenvector_subset =sorted_eigenvectors[:,0:n_components]"""
 
